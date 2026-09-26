@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <script>
+      // Ensure TanStack Router root path matches when accessed directly via /index.html
+      if (window.location.pathname.endsWith('/index.html')) {
+        try {
+          window.history.replaceState(null, '', window.location.pathname.replace(/\/index\.html$/, '/') + window.location.search + window.location.hash);
+        } catch (e) {}
+      }
+    </script>
     <title>Sachi &amp; Sherin — Wedding Invitation</title>
     <meta
       name="description"
