@@ -129,6 +129,7 @@ window.WEDDING_DATA = {
   },
 
   images: {
+    ogImage: "./og-image.jpg",
     gatePanel: "./editable/assets/gate-panel.jpg",
     heroArch: "./editable/assets/hero-arch.jpg",
     mapPreview: "./editable/assets/map-preview.jpg",
@@ -137,5 +138,13 @@ window.WEDDING_DATA = {
     story1: "./editable/assets/story-1.jpg",
     story2: "./editable/assets/story-2.jpg",
     story3: "./editable/assets/story-3.jpg",
+  },
+
+  meta: {
+    title: "Sachi & Sherin — Wedding Invitation",
+    description: "Together with their families, Sachi and Sherin cordially invite you to celebrate their wedding celebrations from January 31 to February 2, 2027 at Jalsa, Gujarat.",
+    url: "https://sachi-weds-sherin.vercel.app/",
+    image: "https://sachi-weds-sherin.vercel.app/og-image.jpg",
+    siteName: "Sachi & Sherin Wedding",
   },
 };
