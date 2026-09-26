@@ -13,7 +13,7 @@ window.WEDDING_DATA = {
   },
 
   invite: {
-    kicker: "Together with Family",
+    kicker: "Please Join Us",
     line: "cordially invite you to celebrate their wedding celebrations",
   },
 
