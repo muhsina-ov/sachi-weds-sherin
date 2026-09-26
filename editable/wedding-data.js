@@ -9,11 +9,11 @@ window.WEDDING_DATA = {
     brideShort: "Sachi",
     groom: "Sherin",
     groomShort: "Sherin",
-    hashtag: "#SachiWedsSherin",
+    hashtag: "",
   },
 
   invite: {
-    kicker: "Together with their families",
+    kicker: "Together with Family",
     line: "cordially invite you to celebrate their wedding celebrations",
   },
 
@@ -21,9 +21,9 @@ window.WEDDING_DATA = {
     title: "The Wedding of Sachi & Sherin",
     startsAt: "2027-01-31T12:00:00+05:30",
     endsAt: "2027-02-02T23:30:00+05:30",
-    dateLabel: "31 Jan – 02 Feb 2027",
-    dayLabel: "Sunday – Tuesday",
-    timeLabel: "Celebrations begin at 12:00 in the afternoon",
+    dateLabel: "31st Jan – 2nd Feb 2027",
+    dayLabel: "31st Jan - 2nd Feb",
+    timeLabel: "Celebrations begin in Bardoli, Gujarat",
     dressCode: "Indian Traditional (avoid blue on Haldi; avoid white/red on Wedding)",
     note: "Lunch and dinner to follow ceremonies",
   },
@@ -84,13 +84,13 @@ window.WEDDING_DATA = {
     deadline: "Please respond at your earliest convenience",
     text: "Your presence and blessings mean the world to us as we embark on this sacred journey together. Please let us know if you will be attending by completing our Google Form below.",
     buttonText: "RSVP via Google Form",
-    url: "https://docs.google.com/forms", // You can paste your exact Google Form link here (e.g., https://forms.gle/...)
+    url: "https://forms.gle/ptG3nhcbGvBUhmvt5",
   },
 
   venue: {
-    name: "Jalsa",
-    address: "Songadh - Surat, Tajpor Khurd, Gujarat 394620",
-    mapsQuery: "445V+JR7 Jalsa Agri Tech, Songadh - Surat, Tajpor Khurd, Gujarat 394620, India",
+    name: "Bardoli, India",
+    address: "Jalsa Party Plot, Gujarat, 394620",
+    mapsQuery: "Jalsa Party Plot, Tajpor Khurd, Bardoli, Gujarat 394620, India",
     url: "https://maps.app.goo.gl/MDzrWzL7FKH2hgx27?g_st=com.google.maps.preview.copy",
     lat: 21.17,
     lng: 73.08,
@@ -98,30 +98,14 @@ window.WEDDING_DATA = {
 
   story: [
     {
-      year: "Chapter I",
-      title: "Lost in New York",
-      text: "At a time when we were both building a life in New York, it was easy to feel lost, stressed, and overwhelmed. And then, we met.",
-      image: "story-1",
-    },
-    {
-      year: "Chapter II",
-      title: "Pieces of the Puzzle",
-      text: "From the first meeting, there was an instant sense of connection. Getting to know each other was like solving a puzzle; as each piece came together, it all made sense in the end.",
-      image: "story-2",
-    },
-    {
-      year: "Chapter III",
+      year: "Our Story",
       title: "Finding Our Way Home",
-      text: "As our relationship evolved, we realized that the sense of home we were looking for in New York was something we found in each other. This little love story has been a journey of finding home.",
-      image: "story-3",
+      text: "At a time when we were both building a life in New York, it was easy to feel lost, stressed, and overwhelmed. And then, we met. From the first meeting, there was an instant sense of connection. Getting to know each other was like solving a puzzle; as each piece came together, it all made sense in the end. As our relationship evolved, we realized that the sense of home we were looking for in New York was something we found in each other. This little love story has been our journey of finding home.",
+      image: "story-1",
     },
   ],
 
-  blessing: {
-    line: "May your intentions be one, may your hearts beat as one.",
-    translation: "Two souls, one destiny — and a lifetime of love, laughter, and home found in each other.",
-    source: "A Vedic blessing from both families",
-  },
+  blessing: null,
 
   footer: {
     families: "With love & warm wishes from the Families",
@@ -142,7 +126,7 @@ window.WEDDING_DATA = {
 
   meta: {
     title: "Sachi & Sherin — Wedding Invitation",
-    description: "Sachi and Sherin invite you to celebrate their wedding from Jan 31 to Feb 2, 2027 at Jalsa, Gujarat.",
+    description: "Sachi and Sherin invite you to celebrate their wedding from 31st Jan to 2nd Feb, 2027 in Bardoli, India.",
     url: "https://sachi-weds-sherin.invitingyou.top/",
     image: "https://sachi-weds-sherin.invitingyou.top/og-image.jpg",
     siteName: "Sachi & Sherin Wedding",
