@@ -5,32 +5,33 @@
 /* Opening Gate Readability Enhancement */
 .gate-kicker-text {
   font-family: 'Karla', var(--default-font-family), system-ui, sans-serif !important;
-  font-size: 0.85rem !important;
-  letter-spacing: 0.28em !important;
-  font-weight: 600 !important;
-  color: #F5E6CA !important;
+  font-size: 0.95rem !important;
+  letter-spacing: 0.32em !important;
+  font-weight: 700 !important;
+  color: #FFF0C4 !important;
   text-transform: uppercase !important;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.95), 0 0 24px rgba(0, 0, 0, 0.75) !important;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.98), 0 0 25px rgba(0, 0, 0, 0.85) !important;
 }
 .gate-names-text {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 2.4rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.14em !important;
-  color: #FFFDF8 !important;
+  font-size: 2.6rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.18em !important;
+  color: #FFFFFF !important;
   text-transform: uppercase !important;
-  text-shadow: 0 3px 20px rgba(0, 0, 0, 0.95), 0 0 30px rgba(0, 0, 0, 0.85) !important;
+  text-shadow: 0 4px 22px rgba(0, 0, 0, 0.98), 0 0 40px rgba(0, 0, 0, 0.9) !important;
   line-height: 1.25 !important;
 }
 @media (min-width: 640px) {
   .gate-names-text {
-    font-size: 3.2rem !important;
+    font-size: 3.4rem !important;
   }
 }
 .gate-date-text {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 1.2rem !important;
-  letter-spacing: 0.24em !important;
-  color: #E8D39E !important;
+  font-size: 1.25rem !important;
+  letter-spacing: 0.22em !important;
+  font-weight: 600 !important;
+  color: #FFE599 !important;
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.95) !important;
 }
