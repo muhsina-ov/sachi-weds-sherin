@@ -142,9 +142,9 @@ window.WEDDING_DATA = {
 
   meta: {
     title: "Sachi & Sherin — Wedding Invitation",
-    description: "Together with their families, Sachi and Sherin cordially invite you to celebrate their wedding celebrations from January 31 to February 2, 2027 at Jalsa, Gujarat.",
-    url: "https://sachi-weds-sherin.vercel.app/",
-    image: "https://sachi-weds-sherin.vercel.app/og-image.jpg",
+    description: "Sachi and Sherin invite you to celebrate their wedding from Jan 31 to Feb 2, 2027 at Jalsa, Gujarat.",
+    url: "https://sachi-weds-sherin.invitingyou.top/",
+    image: "https://sachi-weds-sherin.invitingyou.top/og-image.jpg",
     siteName: "Sachi & Sherin Wedding",
   },
 };
