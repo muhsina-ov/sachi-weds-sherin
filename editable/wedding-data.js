@@ -47,11 +47,11 @@ window.WEDDING_DATA = {
       day: "Day 2",
       dateLabel: "01 . 02 . 2027",
       dayLabel: "Monday",
-      title: "Groom’s grah shanthi & sangeeth",
+      title: "Groom's Grah Shanthi & Sangeeth",
       startsAt: "2027-02-01T10:00:00+05:30",
       endsAt: "2027-02-01T23:30:00+05:30",
       schedule: [
-        { time: "10:00 AM", title: "Groom’s Grah Shanthi" },
+        { time: "10:00 AM", title: "Groom's Grah Shanthi" },
         { time: "06:00 PM", title: "Garba & Sangeeth" },
       ],
       dressCode: "Festive Indian Attire / Traditional",
@@ -65,7 +65,7 @@ window.WEDDING_DATA = {
       startsAt: "2027-02-02T09:00:00+05:30",
       endsAt: "2027-02-02T23:30:00+05:30",
       schedule: [
-        { time: "09:00 AM", title: "Bride’s Grah Shanti" },
+        { time: "09:00 AM", title: "Bride's Grah Shanti" },
         { time: "04:00 PM", title: "Baarat" },
         { time: "07:00 PM", title: "Wedding Ceremony" },
       ],

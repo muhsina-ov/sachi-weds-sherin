@@ -21,43 +21,55 @@ function cv(){
   let hasMulti=evs&&evs.length>0;
   var themes=[
     {
-      badge:"✦ HALDI CELEBRATION ✦",
-      cardBg:"relative rounded-t-[5.5rem] sm:rounded-t-[6.5rem] rounded-b-3xl border border-[#D4AF37]/70 bg-gradient-to-b from-[#FFFDF9] via-[#FAF6ED] to-[#F5EEDC] px-6 pt-12 pb-10 text-center shadow-[0_22px_55px_-20px_rgba(180,130,40,0.28)] paper-grain",
-      innerBorder:"pointer-events-none absolute inset-2.5 rounded-t-[5rem] sm:rounded-t-[6rem] rounded-b-2xl border border-[#D4AF37]/40",
-      dayBadge:"inline-flex items-center gap-1.5 rounded-full border border-[#D4AF37] bg-[#0E281C] px-5 py-1.5 text-xs tracking-[0.25em] text-[#FFE599] uppercase font-bold shadow-sm",
-      dateColor:"text-[#0E281C]",
-      ruleColor:"border-[#D4AF37]",
-      itemBox:"flex items-center justify-between rounded-2xl border border-[#E4D8BA] bg-[#FFFDF9]/95 px-5 py-3.5 text-left transition-all hover:border-[#D4AF37]/80 hover:shadow-md shadow-sm",
-      itemTitle:"font-bold text-base sm:text-lg text-[#0E281C] tracking-wide",
-      itemTime:"font-display text-sm sm:text-base tracking-[0.14em] text-[#8A6D2B] uppercase shrink-0 font-bold",
-      dressPill:"inline-flex items-center gap-2 rounded-full border border-[#D4AF37]/50 bg-[#F4ECD8] px-4 py-1.5 text-xs text-[#0E281C] font-semibold shadow-sm",
-      btnClass:"group inline-flex items-center justify-center gap-2 rounded-full bg-[#0E281C] hover:bg-[#183d2c] border border-[#D4AF37]/60 px-6 py-3 text-xs tracking-[0.2em] text-[#FFE599] uppercase font-semibold transition-transform duration-200 active:scale-95 shadow-md"
+      badge:"\u2726 DAY 01 \u2022 HALDI UTSAV \u2726",
+      cardBg:"day-card-haldi paper-grain",
+      innerBorder:"day-inner-haldi",
+      dayBadge:"day-badge-haldi",
+      dateColor:"day-date-haldi",
+      dayOfWeekColor:"day-sub-haldi",
+      titleColor:"day-title-haldi",
+      ruleColor:"day-rule-haldi",
+      iconColor:"text-amber-600",
+      itemBox:"day-row-haldi",
+      itemTitle:"day-row-title-haldi",
+      itemTime:"day-row-time-haldi",
+      dressPill:"day-pill-haldi",
+      btnClass:"day-btn-haldi",
+      dirBtnClass:"day-dir-haldi"
     },
     {
-      badge:"✦ GRAH SHANTHI & SANGEETH ✦",
-      cardBg:"relative rounded-t-[5.5rem] sm:rounded-t-[6.5rem] rounded-b-3xl border border-[#D4AF37]/70 bg-gradient-to-b from-[#FFFDF9] via-[#F8F6EF] to-[#F3EDE0] px-6 pt-12 pb-10 text-center shadow-[0_22px_55px_-20px_rgba(180,130,40,0.28)] paper-grain",
-      innerBorder:"pointer-events-none absolute inset-2.5 rounded-t-[5rem] sm:rounded-t-[6rem] rounded-b-2xl border border-[#D4AF37]/40",
-      dayBadge:"inline-flex items-center gap-1.5 rounded-full border border-[#D4AF37] bg-[#0E281C] px-5 py-1.5 text-xs tracking-[0.25em] text-[#FFE599] uppercase font-bold shadow-sm",
-      dateColor:"text-[#0E281C]",
-      ruleColor:"border-[#D4AF37]",
-      itemBox:"flex items-center justify-between rounded-2xl border border-[#E4D8BA] bg-[#FFFDF9]/95 px-5 py-3.5 text-left transition-all hover:border-[#D4AF37]/80 hover:shadow-md shadow-sm",
-      itemTitle:"font-bold text-base sm:text-lg text-[#0E281C] tracking-wide",
-      itemTime:"font-display text-sm sm:text-base tracking-[0.14em] text-[#8A6D2B] uppercase shrink-0 font-bold",
-      dressPill:"inline-flex items-center gap-2 rounded-full border border-[#D4AF37]/50 bg-[#F4ECD8] px-4 py-1.5 text-xs text-[#0E281C] font-semibold shadow-sm",
-      btnClass:"group inline-flex items-center justify-center gap-2 rounded-full bg-[#0E281C] hover:bg-[#183d2c] border border-[#D4AF37]/60 px-6 py-3 text-xs tracking-[0.2em] text-[#FFE599] uppercase font-semibold transition-transform duration-200 active:scale-95 shadow-md"
+      badge:"\u2726 DAY 02 \u2022 GRAH SHANTHI & SANGEETH \u2726",
+      cardBg:"day-card-sangeeth paper-grain",
+      innerBorder:"day-inner-sangeeth",
+      dayBadge:"day-badge-sangeeth",
+      dateColor:"day-date-sangeeth",
+      dayOfWeekColor:"day-sub-sangeeth",
+      titleColor:"day-title-sangeeth",
+      ruleColor:"day-rule-sangeeth",
+      iconColor:"text-emerald-700",
+      itemBox:"day-row-sangeeth",
+      itemTitle:"day-row-title-sangeeth",
+      itemTime:"day-row-time-sangeeth",
+      dressPill:"day-pill-sangeeth",
+      btnClass:"day-btn-sangeeth",
+      dirBtnClass:"day-dir-sangeeth"
     },
     {
-      badge:"✦ THE SACRED WEDDING VOWS ✦",
-      cardBg:"relative rounded-t-[6rem] sm:rounded-t-[7rem] rounded-b-3xl border-2 border-[#D4AF37] bg-gradient-to-b from-[#FFFDF9] via-[#FBF7ED] to-[#F5EBD7] px-6 pt-12 pb-10 text-center shadow-[0_26px_65px_-20px_rgba(180,130,40,0.35)] paper-grain",
-      innerBorder:"pointer-events-none absolute inset-2.5 rounded-t-[5.5rem] sm:rounded-t-[6.5rem] rounded-b-2xl border-2 border-[#D4AF37]/50",
-      dayBadge:"inline-flex items-center gap-1.5 rounded-full border border-[#D4AF37] bg-[#7A1C28] px-5 py-1.5 text-xs tracking-[0.25em] text-[#FFE599] uppercase font-bold shadow-sm",
-      dateColor:"text-[#0E281C]",
-      ruleColor:"border-[#D4AF37]",
-      itemBox:"flex items-center justify-between rounded-2xl border border-[#E4D8BA] bg-[#FFFDF9]/95 px-5 py-3.5 text-left transition-all hover:border-[#D4AF37]/80 hover:shadow-md shadow-sm",
-      itemTitle:"font-bold text-base sm:text-lg text-[#0E281C] tracking-wide",
-      itemTime:"font-display text-sm sm:text-base tracking-[0.14em] text-[#8A6D2B] uppercase shrink-0 font-bold",
-      dressPill:"inline-flex items-center gap-2 rounded-full border border-[#D4AF37]/50 bg-[#F4ECD8] px-4 py-1.5 text-xs text-[#0E281C] font-semibold shadow-sm",
-      btnClass:"group inline-flex items-center justify-center gap-2 rounded-full bg-[#7A1C28] hover:bg-[#8F2331] border border-[#D4AF37]/70 px-6 py-3 text-xs tracking-[0.2em] text-[#FFE599] uppercase font-semibold transition-transform duration-200 active:scale-95 shadow-md"
+      badge:"\u2726 DAY 03 \u2022 THE SACRED WEDDING \u2726",
+      cardBg:"day-card-wedding paper-grain",
+      innerBorder:"day-inner-wedding",
+      dayBadge:"day-badge-wedding",
+      dateColor:"day-date-wedding",
+      dayOfWeekColor:"day-sub-wedding",
+      titleColor:"day-title-wedding",
+      ruleColor:"day-rule-wedding",
+      iconColor:"text-rose-700",
+      itemBox:"day-row-wedding",
+      itemTitle:"day-row-title-wedding",
+      itemTime:"day-row-time-wedding",
+      dressPill:"day-pill-wedding",
+      btnClass:"day-btn-wedding",
+      dirBtnClass:"day-dir-wedding"
     }
   ];
   return(0,M.jsxs)(`section`,{
@@ -79,9 +91,10 @@ function cv(){
                 className:tm.cardBg,
                 children:[
                   (0,M.jsx)(`div`,{className:tm.innerBorder}),
-                  (0,M.jsx)(`span`,{className:tm.dayBadge,children:ev.day||`Day ${idx+1}`}),
-                  (0,M.jsx)(`h3`,{className:`mt-4 font-display text-4xl sm:text-5xl tracking-[0.1em] font-bold ${tm.dateColor}`,children:ev.dateLabel}),
-                  (0,M.jsx)(`p`,{className:`mt-2 font-display text-2xl sm:text-3xl font-bold text-pine`,children:ev.title}),
+                  (0,M.jsx)(`span`,{className:tm.dayBadge,children:tm.badge||(ev.day||`Day ${idx+1}`)}),
+                  (0,M.jsx)(`h3`,{className:`mt-5 font-display text-4xl sm:text-5xl tracking-[0.1em] font-bold ${tm.dateColor}`,children:ev.dateLabel}),
+                  ev.dayLabel?(0,M.jsx)(`p`,{className:`mt-1 text-xs sm:text-sm tracking-[0.3em] uppercase font-bold ${tm.dayOfWeekColor}`,children:ev.dayLabel}):null,
+                  (0,M.jsx)(`p`,{className:`mt-2 font-display text-2xl sm:text-3xl font-bold ${tm.titleColor}`,children:ev.title}),
                   (0,M.jsx)(`div`,{className:`mx-auto mt-4 w-24 border-b-2 ${tm.ruleColor}`}),
                   (0,M.jsx)(`div`,{
                     className:`mt-6 space-y-3`,
@@ -91,7 +104,7 @@ function cv(){
                         (0,M.jsxs)(`div`,{
                           className:`flex items-center gap-3`,
                           children:[
-                            (0,M.jsx)(nv,{className:`size-4 text-gold shrink-0`,"aria-hidden":!0}),
+                            (0,M.jsx)(nv,{className:`size-4 shrink-0 ${tm.iconColor}`,"aria-hidden":!0}),
                             (0,M.jsx)(`span`,{className:tm.itemTitle,children:sc.title})
                           ]
                         }),
@@ -103,10 +116,10 @@ function cv(){
                     className:`mt-7 space-y-2.5 text-xs sm:text-sm text-ink/85`,
                     children:[
                       (0,M.jsxs)(`li`,{
-                        className:`flex items-center justify-center gap-2 font-medium`,
+                        className:`flex items-center justify-center gap-2 font-medium ${tm.dateColor}`,
                         children:[
-                          (0,M.jsx)(rv,{className:`size-4 text-gold shrink-0`,"aria-hidden":!0}),
-                          (0,M.jsxs)(`span`,{children:[t.name,` • `,(0,M.jsx)(`span`,{className:`text-ink/65`,children:t.address})]})
+                          (0,M.jsx)(rv,{className:`size-4 shrink-0 ${tm.iconColor}`,"aria-hidden":!0}),
+                          (0,M.jsxs)(`span`,{children:[t.name,` • `,(0,M.jsx)(`span`,{className:`opacity-75`,children:t.address})]})
                         ]
                       }),
                       ev.dressCode?(0,M.jsx)(`li`,{
@@ -139,7 +152,7 @@ function cv(){
                         href:z_(),
                         target:`_blank`,
                         rel:`noreferrer`,
-                        className:`rounded-full border border-gold/70 px-6 py-3 text-xs tracking-[0.2em] text-ink/80 uppercase font-semibold transition-colors hover:bg-gold/15 active:scale-95`,
+                        className:tm.dirBtnClass,
                         children:`Directions`
                       })
                     ]
