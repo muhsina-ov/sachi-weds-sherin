@@ -128,27 +128,18 @@ function cv(){
                       ev.note?(0,M.jsx)(`li`,{className:`text-xs text-ink/70 italic`,children:ev.note}):null
                     ]
                   }),
-                  (0,M.jsxs)(`div`,{
-                    className:`mt-7 flex flex-wrap items-center justify-center gap-3`,
-                    children:[
-                      (0,M.jsxs)(`a`,{
-                        href:L_(ev),
-                        target:`_blank`,
-                        rel:`noreferrer`,
-                        className:tm.btnClass,
-                        children:[
-                          (0,M.jsx)(tv,{className:`size-4 transition-transform group-hover:rotate-6`}),
-                          `Add to Calendar`
-                        ]
-                      }),
-                      (0,M.jsx)(`a`,{
-                        href:z_(),
-                        target:`_blank`,
-                        rel:`noreferrer`,
-                        className:tm.dirBtnClass,
-                        children:`Directions`
-                      })
-                    ]
+                  (0,M.jsx)(`div`,{
+                    className:`mt-7 flex items-center justify-center`,
+                    children:(0,M.jsxs)(`a`,{
+                      href:L_(ev),
+                      target:`_blank`,
+                      rel:`noreferrer`,
+                      className:tm.btnClass,
+                      children:[
+                        (0,M.jsx)(tv,{className:`size-4 transition-transform group-hover:rotate-6`}),
+                        `Add to Calendar`
+                      ]
+                    })
                   })
                 ]
               });
