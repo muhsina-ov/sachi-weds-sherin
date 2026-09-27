@@ -14,7 +14,7 @@ window.WEDDING_DATA = {
 
   invite: {
     kicker: "Please Join Us",
-    line: "cordially invite you to celebrate their wedding celebrations",
+    line: "cordially invite you to their celebrations",
   },
 
   event: {
@@ -34,11 +34,12 @@ window.WEDDING_DATA = {
       day: "Day 1",
       dateLabel: "31 . 01 . 2027",
       dayLabel: "Sunday",
-      title: "Haldi Ceremony",
+      title: "Ganesh Stapna & Haldi",
       startsAt: "2027-01-31T14:00:00+05:30",
       endsAt: "2027-01-31T18:00:00+05:30",
       schedule: [
-        { time: "02:00 PM", title: "Haldi Ceremony" },
+        { time: "02:00 PM", title: "Haldi Celebration" },
+        { time: "03:00 PM", title: "Ganesh Stapna" },
       ],
       dressCode: "Indian Traditional (Please avoid blue)",
       note: "",

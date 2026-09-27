@@ -18,7 +18,7 @@ Edit `couple` in `editable/wedding-data.js`:
 ### Invitation Line
 Edit `invite` in `editable/wedding-data.js`:
 - `kicker`: Eyebrow line (`"Together with their families"`)
-- `line`: Invitation statement (`"cordially invite you to celebrate their wedding celebrations"`)
+- `line`: Invitation statement (`"cordially invite you to their celebrations"`)
 
 ### Wedding Dates & Multi-Day Itinerary
 Edit `event` and `events` array in `editable/wedding-data.js`:
