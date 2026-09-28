@@ -163,6 +163,21 @@
         text-shadow: 0 2px 14px rgba(255, 255, 255, 0.9), 0 0 25px rgba(255, 255, 255, 0.85) !important;
       }
 
+      /* Hero Scroll Indicator */
+      .hero-scroll-btn {
+        margin-top: 1rem !important;
+        cursor: pointer !important;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+      .hero-scroll-btn:hover {
+        transform: translateY(-3px);
+      }
+      @media (max-height: 800px) {
+        .hero-scroll-btn {
+          margin-top: 0.75rem !important;
+        }
+      }
+
       /* Floating Background Music Controller */
       .music-toggle-btn {
         position: fixed;
