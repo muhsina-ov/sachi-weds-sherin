@@ -163,9 +163,28 @@
         text-shadow: 0 2px 14px rgba(255, 255, 255, 0.9), 0 0 25px rgba(255, 255, 255, 0.85) !important;
       }
 
+      /* Hero Image Responsive Height for Initial Screen Fit */
+      .hero-image-wrap {
+        height: 48vh !important;
+        min-height: 280px !important;
+        max-height: 440px !important;
+      }
+      @media (max-height: 760px) {
+        .hero-image-wrap {
+          height: 42vh !important;
+          min-height: 240px !important;
+        }
+      }
+      @media (max-height: 640px) {
+        .hero-image-wrap {
+          height: 38vh !important;
+          min-height: 210px !important;
+        }
+      }
+
       /* Hero Scroll Indicator */
       .hero-scroll-btn {
-        margin-top: 1rem !important;
+        margin-top: 0.5rem !important;
         cursor: pointer !important;
         transition: transform 0.25s ease, opacity 0.25s ease;
       }
@@ -174,7 +193,7 @@
       }
       @media (max-height: 800px) {
         .hero-scroll-btn {
-          margin-top: 0.75rem !important;
+          margin-top: 0.25rem !important;
         }
       }
 
